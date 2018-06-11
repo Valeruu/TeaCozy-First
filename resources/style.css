@@ -1,0 +1,97 @@
+/* This is the general styling for the body */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* This is the styling for the header section */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 69px;
+  width: 1300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom-border: 1px solid seashell;   /*border is not showing, come back to check this*/
+}
+
+.logo {
+  width: 850px;
+}
+
+.logo img {
+  height: 50px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+li {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: underline;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+
+
+/* This is the styling for the "Our Mission" section */
+
+#mission {  /*needs work*/
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 700px;
+  width: 1300px;
+  justify-content: center;
+}
+
+#mission img { /* needs work*/
+  background-image: image(./resources/images/img-mission-background.jpg);
+  position: relative;
+  height: 700px;
+  width: 1200px;
+  margin-top: 90px;
+  justify-content: center;
+  padding-left: 60px;
+  padding-right: 55px;
+}
+
+
+
+
+
+/* This is the styling for the "Tea of the Month" section */
+
+
+
+
+/* This is the styling for the "Locations" section */
+
+
+
+
+/* This is the styling for the "Contact" section */
+
+
+
+
+/* This is the styling for the footer section */
